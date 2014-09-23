@@ -1,0 +1,18 @@
+## About
+Teh Playgound is a PHP testbed, where you can do rapid PHP prototyping without the need to build your own LAMP stack or bother with saving files and the like.
+It allows you to slap together a quick block of code and render it straight in your browser, and even proceed to send that data over to a friend or colleague for collaboration.
+
+## Usage
+Just type your PHP code in the left hand side there, and when you're ready to run it, just hit CTRL+Enter - that's it. It'll render and the output will be shown over here, errors and all.
+Your code is saved on the server, so you can keep the URL handy and come back to it at a later point, or even send it off to a friend for them to check it out and run it as well.
+It does need Javascript enabled to run, since it does AJAX stuff, and does not fail gracefully if it's missing, so wah-wah to you if you don't like that.
+We've even started you off with some example code to the left - hit CTRL+Enter to see it run!
+
+## Settings
+A new features to Teh Playground is the ability to change some render settings, including which version of PHP the code will run against. If you move your mouse alllll the way over to the left hand side of the screen, the sidebar will pop out as if by magic, and you can pick and choose your settings at will. They're saved when you render the code, so if and when you share the URL with someone, they'll see the same settings and the same output!
+
+## Security
+The nature of a system like this means that your files or rendered code ***WILL*** be exposed to any person with a bit of PHP savvy, so this is your warning not to put any IP or sensitive information up here, and that if you do, we are not taking ANY responsibility as per the GPL license warranty.
+
+## Open Sores
+Some of the source for this site is open source and released under a GPL license. You can <a href="https://github.com/tehplayground/">browse the repository over at GitHub</a>. If you have any improvements to make or find some bugs, you can either <a href="mailto:bugs@tehplayground.com">email us</a> or just fork the repo and send us a pull request!
