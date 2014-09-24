@@ -11,7 +11,7 @@ if [ -z "$1" ]; then
 fi
 
 # Download the raw code into a temp file
-curl -A 'Tehplayground Renderer' -sfo /render/raw 'https://tehplayground.com/api/code/$1/raw'
+curl -A 'Tehplayground Renderer' -sfo /render/raw https://tehplayground.com/api/code/$1/raw
 
 # Set some limits for you hax0rs to try to get around
 ulimit -c 0 -f 10 -t 10 -u 20 -x 5
