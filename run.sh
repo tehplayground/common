@@ -4,22 +4,18 @@
 # This file is responsible for downloading the code to run
 # and then sets all the limits, and does the actual execution
 
-# Yeah this really shouldn't happen
-if [ -z "$1" ]; then
-	echo "No ID was provided... somehow. Make a note of it!"
-	exit -1
-fi
-
-# Download the raw code into a temp file
-curl -A 'Tehplayground Renderer' -sfo /render/raw https://tehplayground.com/api/code/$1/raw
+# Reading the code in from STDIN and save it to a local file
+# Yes, this means that Teh Playground only supports 64k worth of code per run!
+read -N65535 STDIN
 
 # Set some limits for you hax0rs to try to get around
-ulimit -c 0 -f 10 -t 10 -u 20 -x 5
+ulimit -c 0 -f 10 -t 10 -u 40 -x 5
 
 # Run the raw code via PHP
 # /php will always be a symlink to the correct binary, whether it be PHP or HHVM etc
 # Using GNU timeout to set soft and hard runtime limits of 5 and 10 seconds respectively
-timeout -k 1 5 /php /render/raw
+# That echo also looks like a neat attack vector!
+echo "$STDIN" | timeout -k 1 5 /php
 
 # Show an informative error if we hit those limits
 RETVAL=$?
