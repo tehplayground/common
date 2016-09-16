@@ -9,7 +9,7 @@
 read -N65535 STDIN
 
 # Set some limits for you hax0rs to try to get around
-ulimit -c 0 -f 10 -t 10 -u 40 -x 5
+ulimit -c 0 -f 10 -t 10 -u 100 -x 5
 
 # Run the raw code via PHP
 # /php will always be a symlink to the correct binary, whether it be PHP or HHVM etc
