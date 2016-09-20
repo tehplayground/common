@@ -8,7 +8,7 @@ By default, the output from your code will be wrapped in `<pre>` tags, to make i
 New to Teh Playground is the option to render your output as MarkDown. This is especially useful if you're testing some actual rendering code, and want to see the output in a nice format, and also share it with other people.
 
 #### PHP Version
-Another new feature to Teh Playground is the ability to pick which version of PHP your code snippet will be run against. By default, it's set to use the Latest version that Teh Playground supports (as of writing, that's 5.6.1).
+Another new feature to Teh Playground is the ability to pick which version of PHP your code snippet will be run against. By default, it's set to use the Latest version that Teh Playground supports.
 If you'd like to render against a different version, simply pull out the left hand side menu by mousing over it, drop down the `PHP Version` item and pick your version, then click the `Save and Run` button to see how it goes.
 
 #### Settings
