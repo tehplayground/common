@@ -17,4 +17,4 @@ A new features to Teh Playground is the ability to change some render settings, 
 The nature of a system like this means that your files or rendered code ***WILL*** be exposed to any person with a bit of PHP savvy, so this is your warning not to put any IP or sensitive information up here, and that if you do, we are not taking ANY responsibility as per the GPL license warranty.
 
 ## Open Sores
-Some of the source for this site is open source and released under a GPL license. You can [https://github.com/tehplayground/](browse the repository over at GitHub). If you have any improvements to make or find some bugs, you can either [mailto:bugs@tehplayground.com](email us) or just fork the repo and send us a pull request!
+Some of the source for this site is open source and released under a GPL license. You can [browse the repository over at GitHub](https://github.com/tehplayground/). If you have any improvements to make or find some bugs, you can either [email us](mailto:bugs@tehplayground.com) or just fork the repo and send us a pull request!
