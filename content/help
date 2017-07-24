@@ -15,5 +15,5 @@ If you'd like to render against a different version, simply pull out the left ha
 The settings that you pick in the left hand menu are saved with your code snippet, so if you want to share your code that's wrapped in `<pre>` tags and run against PHP version 5.3.4 with your colleague, simply choose those settings, `Save and Run` your code at least once, then share the resulting URL!
 
 #### I (need more help|have a suggestion|found a bug) in Teh Playground
-Great! Feel free to either email `help@tehplayground.com` with your question if you need help, or visit https://github.com/tehplayground/support/issues and lodge an issue for a suggestion or bug. I'll try to reply as soon as I can!
+Great! Feel free to either email `help@tehplayground.com` with your question if you need help, or visit [https://github.com/tehplayground/support/issues](https://github.com/tehplayground/support/issues){:target="_blank"} and lodge an issue for a suggestion or bug. I'll try to reply as soon as I can!
 
